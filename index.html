@@ -225,14 +225,13 @@
                 </div>
 
                 <div id="attendeeCountContainer" class="hidden transition-all duration-300 ease-in-out origin-top opacity-0 transform -translate-y-2 pt-2">
-                     <label class="block text-gray-800 font-semibold mb-[-1rem] relative z-10">
-                        មតិយោបល់/សំណូមពរ <span class="text-gray-500 font-normal text-sm">/ Suggestion/Comment</span> <span class="text-red-500">*</span>
-                    </label>
-                    <div class="input-group">
-                        <input type="number" id="attendeeCount" name="attendeeCount" min="1" class="input-field body-font" placeholder=" ">
-                        <span class="input-label">សូមបញ្ជាក់ចំនួន... / Please enter number...</span>
-                    </div>
-                </div>
+     <label for="attendeeCount" class="block text-gray-800 font-semibold mb-1">
+        មតិយោបល់-សំណូមពរ <span class="text-gray-500 font-normal text-sm">/ Suggestions</span> <span class="text-red-500">*</span>
+    </label>
+    <input type="text" id="attendeeCount" name="attendeeCount" 
+        class="w-full px-4 py-2.5 rounded-lg border border-gray-200 focus:ring-2 focus:ring-purple-400 focus:border-purple-400 outline-none transition-all body-font bg-gray-50/50 focus:bg-white text-gray-800 text-sm" 
+        placeholder="មតិយោបល់-សំណូមពរ / Suggestions">
+</div>
 
                 <div id="reasonContainer" class="hidden transition-all duration-300 ease-in-out origin-top opacity-0 transform -translate-y-2 pt-2">
                     <label for="reason" class="block text-gray-800 font-semibold mb-1">
